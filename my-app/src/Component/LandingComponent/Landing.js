@@ -11,7 +11,7 @@ export default function LandingPage() {
             <Card.Img className="landing-img" variant="left" src={home} alt="landing img" />
             <Card.Body className="landing-content">
                 <Card.Title>10X Team 04</Card.Title>
-                <Link to={"/post/all"}><Button variant="primary">Enter</Button></Link>
+                <Link to={"new"}><Button variant="primary">Enter</Button></Link>
             </Card.Body>
             </Card>
 
